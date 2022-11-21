@@ -1,0 +1,121 @@
+*{
+    margin:auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+header{
+    width: 100%;
+    background-color: #00FFFF;
+    height: 100px;
+}
+
+header img{
+    float: left;
+    height: 70px;
+    width: auto;
+}
+
+nav{
+    float: right;
+}
+
+nav a{
+ padding: 0 38px;
+ color: white;
+ text-decoration: none;
+ line-height: 70px;
+ font-weight: bold;
+ border-radius: 5px;
+
+ transition: all 1s;
+
+}
+
+nav a:hover{
+    background: white;
+    color: #00FFFF;
+}
+
+.mitad{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.mitad1 img{
+    width: 50%;
+    height: auto;
+}
+
+.mitad h1{
+    margin-top: 300px;
+    line-height: 70px;
+}
+
+.descrip{
+    width: 75%;
+    background: #0FF;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.descrip h1{
+    line-height: 50px;
+    color: white;
+}
+
+.descrip h3{
+    line-height: 50px;
+    color: white;
+}
+
+.descrip p{
+    line-height: 30px;
+    color: white;
+}
+
+.servicios{
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.servicios li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background: #0FF;
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.servicios li img{
+    height: 50px;
+    width: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+footer{
+    width: 100%;
+    background: #0FF;
+    padding: 40px 0;
+    text-align: center;
+}
